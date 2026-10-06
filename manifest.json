@@ -1,0 +1,21 @@
+{
+  "name": "Sveglia",
+  "version": "2026.10.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "https://github.com/alessandroperetti69/sveglia-firmware/releases/download/v2026.10.1/sveglia-2026.10.1.ota.bin",
+        "md5": "26b44e8748660658b1fc3d6e870db880",
+        "summary": "Prima versione pubblica: guida a voce, spegnimento staccando il cavo, calendario collegato dalla pagina web, aggiornamenti con conferma.",
+        "release_url": "https://github.com/alessandroperetti69/sveglia-firmware/releases/tag/v2026.10.1"
+      },
+      "parts": [
+        {
+          "path": "https://github.com/alessandroperetti69/sveglia-firmware/releases/download/v2026.10.1/sveglia-2026.10.1.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

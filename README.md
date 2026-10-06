@@ -13,8 +13,15 @@ Il codice sorgente non è qui.
 2. Non conoscendo ancora nessuna rete, apre la rete WiFi **Sveglia setup** (senza password).
    Collegati con il telefono: si apre una pagina dove scegli la tua rete e scrivi la password.
    Se la pagina non si apre da sola, vai su `http://192.168.4.1`.
-3. Rimetti il telefono sulla rete di casa e apri `http://sveglia.local`: è la pagina di
-   controllo, con tutte le impostazioni (nome per il saluto, città del meteo, sveglie, suoni).
+3. Rimetti il telefono sulla rete di casa e apri l'indirizzo che la sveglia mostra sullo
+   schermo, `sveglia-<cifre>.local`. È la pagina di controllo: per prima cosa chiede il tuo
+   nome, che diventa anche l'indirizzo definitivo (per esempio `sveglia-giulia.local`), e la
+   pagina ci si sposta da sola. Da lì ci sono tutte le impostazioni: città del meteo, sveglie,
+   suoni.
+
+Se l'indirizzo con `.local` non si apre (succede con alcuni telefoni Android e con alcuni
+router), usa l'indirizzo IP: lo mostrano la pagina WiFi delle impostazioni sulla sveglia e la
+sezione "WiFi e alimentazione" della pagina web. Conviene salvarlo nei preferiti.
 
 Per sapere come si usa, tocca il **?** in cima alla prima pagina delle impostazioni (scorri
 verso l'alto dall'ora): la sveglia racconta a voce come funziona.
